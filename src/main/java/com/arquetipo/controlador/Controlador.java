@@ -44,7 +44,7 @@ public class Controlador {
         
 	@RequestMapping(value={"hola"})
 	public String hola(Model model) throws Exception {
-                String titulo = "Bienvenido al sistema...";
+                String titulo = "Bienvenido al sistema... ya vamos a empezar";
 		model.addAttribute("titulo", titulo);
 		return "index";
 	}
